@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  gem.add_dependency 'picturefill', '>= 0.1.3'
+  gem.add_dependency 'paperclip', '>= 4.0.0'
 end
